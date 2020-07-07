@@ -18,7 +18,7 @@ router.get('/searchdata', async (req, res , next)=>{
     
     console.log(resultData)
     // res.send(resultData)
-    res.render('searchdata', {data:result})
+    res.render('searchdata', {data:resultData},{})
 })
 
 module.exports = router;
